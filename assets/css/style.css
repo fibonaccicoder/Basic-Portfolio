@@ -63,9 +63,28 @@ nav{
     padding-top: 40px;
 }
 
-.topnav{
+.topnav {
+    background-color: #ffffff;
+    color:#777777;
+    overflow: hidden;
+    text-decoration: none;
     display: inline;
     border-right: 1px solid #777777;
+}
+
+.topnav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
 }
 
 .topnav:last-child{
@@ -117,6 +136,7 @@ footer {
     background-color:#666666;
     color:#ffffff;
     font-size:12px;
+    text-align:center;
     padding: 10px;
     margin-top: 20px;
     border-top:8px solid #4aaaa5;
@@ -144,70 +164,18 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
 .container {
+    width:610px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
-.containerport{
-    width:960px;
+#absolute{
+    width:200px;
+    background:#4aaaa5;
 }
-
-#CodingBootcamp{
-    margin:30px;
-}
-
-#Art{
-    margin:30px;
-}
-
-#Travel{
-    margin:30px;
-}
-
-.CodingBootcamp{
-
-}
-
-.Art{
-
-}
-
-.Travel{
-
-}
-
-
-.topnav {
-    background-color: #ffffff;
-    color:#777777;
-    float:right;
-    overflow: hidden;
-    text-decoration: none;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-    text-decoration: none;
-}
-
-/* Add a color to the active/current link */
